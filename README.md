@@ -37,31 +37,37 @@ This project is intended for educational purposes or as a starting point for bui
 ### Installation
 
 1. **Clone the Repository**  
-   ```bash
+   ```
    git clone https://github.com//financial-score-app](https://github.com/karunkri/Financial-Score-Prediction-App.git
    cd financial-score-app
    ```
 
 2. **Set Up a Virtual Environment**  
-   ```bash
+   ```
    python -m venv venv
    source venv/bin/activate  # On Linux/Mac
    venv\Scripts\activate     # On Windows
    ```
 
 3. **Install Dependencies**  
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
 4. **Run the Application**  
    Use the following command to start the Streamlit app:
-   ```bash
+   ```
    streamlit run app.py
    ```
 
 5. **Access the App**  
    Open your web browser and navigate to the URL provided by Streamlit (e.g., `http://localhost:8501`).
+
+6.**Start the FastAPI server**
+ Use the following command to start the FastAPI server:
+```
+uvicorn main:app --reload
+```
 
 ---
 
