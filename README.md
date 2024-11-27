@@ -63,7 +63,7 @@ This project is intended for educational purposes or as a starting point for bui
 5. **Access the App**  
    Open your web browser and navigate to the URL provided by Streamlit (e.g., `http://localhost:8501`).
 
-6.**Start the FastAPI server**
+6. **Start the FastAPI server**
  Use the following command to start the FastAPI server:
 ```
 uvicorn main:app --reload
